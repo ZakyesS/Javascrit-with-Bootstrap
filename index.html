@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise 2 with Bootstrap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style-2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark fixed-top navbar-expand-lg d-flex justify-content-between">        
+            <a class="navbar-brand ml-2" href="#"><i class="fas fa-cannabis fa-2x"></i></a>
+            <div class="navbar-nav mr-2">
+                <!-- <a class="nav-item nav-link active" href="#">Logout</a> -->
+                <i class="fas fa-cog fa-spin fa-2x mr-3"></i>
+                <button type="button" class="btn btn-danger btn-sm badge-pill mr-2 " data-toggle="#">Logout</button>
+                <button type="button" class="btn btn-info btn-sm badge-pill" data-toggle="button" aria-pressed="false">Exercise</button>
+                <!-- <a class="nav-item nav-link" href="#">Exercise</a> -->
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container"> 
+            <div class="card text-center" id="background-cards">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs mt-3">
+                        <li class="nav-item">
+                            <a class="nav-link badge badge-pill badge-dark mr-3" href="#Admins" data-toggle="collapse">Admins</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link badge badge-pill badge-dark mr-3" href="#Editors" data-toggle="collapse">Editors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link badge badge-pill badge-dark" href="#Users" data-toggle="collapse">Users</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse" id="Admins">
+                    <div class="card-body" >
+                        <div class="card-deck">
+                            <div class="card">
+                                <i class="fas fa-chess-king"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">Admin 1</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-chess-king"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">Admin 2</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-chess-king"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">Admin 3</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+                <div class="collapse" id="Editors">
+                    <div class="card-body">
+                        <div class="card-deck">
+                            <div class="card">
+                                <i class="fas fa-chess-queen"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">Editor 1</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-chess-queen"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">Editor 2</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-chess-queen"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">Editor 3</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="Users">
+                    <div class="card-body">
+                        <div class="card-deck">
+                            <div class="card">
+                                <i class="fas fa-chess-pawn"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">User 1</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-chess-pawn"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">User 2</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-chess-pawn"></i>
+                                <div class="card-body">
+                                <h5 class="card-title">User 3</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="card-footer text-muted d-flex justify-content-between">
+           <p class="ml-2">18 sept 2018</p>
+           <p class="mr-3">Yuneysa</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

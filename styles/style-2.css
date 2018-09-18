@@ -1,0 +1,51 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+/* input {
+    margin: 4% auto;
+} */
+/* html {
+    height: 100vh;
+} */
+body {
+    background-color: rgb(255, 228, 196);
+    /* height: 80vh; */
+    position: relative;
+}
+nav {
+    background-color: rgba(120, 89, 131, 0.5);
+    top: 0;
+    z-index: 1020px;
+}
+.container {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+#background-cards {
+    /* height: 50%; */
+    /* background-color: black; */
+    background-image: url('../images/apple-watch-desk-equipment-876467.jpg');
+    background-size: cover;
+    /* background-position: 0; */
+    background-repeat: no-repeat;
+    border: 1px dashed rebeccapurple;
+}
+.card-header {
+    height: 100px;
+}
+.card-deck .card {
+    background-color: rgba(212, 200, 200, 0.63);
+    border: 2px;
+    border-style: outset;
+}
+.card i {
+    margin-top: 5%;
+}
+footer {
+    position: relative;
+    /* top: 200px; */
+    margin: auto;
+}
